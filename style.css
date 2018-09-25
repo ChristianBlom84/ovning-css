@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.ovning1 {
+    width: 200px;
+    height: 100px;
+    background: teal;
+    border-radius: 10px;
+}
+
+.ovning2 {
+    width: 200px;
+    height: 100px;
+    background: teal;
+    border-radius: 0 10px 20px 10px;
+    position: relative;
+}
+
+.ovning2a {
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    border-radius: 10px/20px;
+}
+
+.ovning3 {
+    width: 200px;
+    height: 200px;
+    /* background: orange; */
+    border: 7px dashed black;
+    float: left;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.ovning3a {
+    padding: 5px;
+    background: orange;
+}
+
+.ovning3b > p {
+    background: orange;
+    height: 100%;
+}
+
+.ovning3c {
+    padding: 10px;
+}
+
+.ovning3c > p {
+    background: orange;
+}
+
+.ovning3container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.ovning4 {
+    background: skyblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ovning4 > img {
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: 8px solid white;
+    box-shadow: 8px 8px 10px black;
+}
+
+.ovning5 {
+    width: 160px;
+    height: 160px;
+    border: 3px solid grey;
+    position: relative;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ovning5blue {
+    background: blue;
+    opacity: 0.5;
+    top: 35px;
+    left: 15px;
+    z-index: 3;
+}
+
+.ovning5green {
+    background: rgb(0, 255, 0);
+    opacity: 0.5;
+    top: 35px;
+    right: 15px;
+    z-index: 2;
+}
+
+.ovning5red {
+    background: red;
+    opacity: 0.5;
+    top: 15px;
+    left: 35px;
+    z-index: 1;
+}
